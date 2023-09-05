@@ -1,0 +1,87 @@
+/* Declaración de variables de color */
+:root {
+	--color-nier-1: #C54D4A;
+	--color-nier-2: #352B37;
+	--color-nier-3: #181826;
+	--color-nier-4: #734D4D;
+	--color-nier-5: #F0EBE5;
+
+	--color-tier-1: #F9F7F7;
+	--color-tier-2: #DBE2EF;
+	--color-tier-3: #3F72AF;
+	--color-tier-4: #112D4E;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-tier-3);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado con tu nombre y título */
+header {
+    background-color: var(--color-tier-4);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Estilo para las secciones de contenido */
+section {
+    background-color: var(--color-tier-2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 15px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para los botones (por ejemplo, el botón de descarga de CV) */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
